@@ -1,0 +1,44 @@
+input[type="text"],[type="email"],[type="date"] {
+    background-color: pink;
+    border-width: 1px;
+    border-style: solid;
+    color: navy;
+    font-size: 16px;
+}
+input[type="text"]:focus {
+    background-color: lightblue;
+}
+label{
+    font-size: 18px;
+}
+legend {
+    font-size: 30px;
+    border-color: #fda18a;
+    width: fit-content;
+    color: #fa5557;
+}
+input[type="submit"] {
+    background-color: #37898c;
+    color: white;
+    padding: 0.25rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="reset"] {
+    background-color: #fa5557;
+    color: white;
+    padding: 0.25rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+td {
+    width: 300px;
+}
